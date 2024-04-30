@@ -1,5 +1,4 @@
 "use client";
-import { Erica_One } from "next/font/google";
 import React from "react";
 import { useEffect } from "react";
 const error = ({ error, reset }) => {
