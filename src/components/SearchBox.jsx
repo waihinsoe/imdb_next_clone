@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 export default function SearchBox() {
@@ -8,6 +9,7 @@ export default function SearchBox() {
     e.preventDefault();
     router.push(`/search/${search}`);
   };
+
   return (
     <form
       className="flex justify-between px-5 max-w-6xl mx-auto"
